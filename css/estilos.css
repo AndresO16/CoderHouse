@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+h1, h2, h3, h4{
+    font-family: 'Oswald', sans-serif;
+    text-align: start;
+    padding: 20px;
+}
+h3{
+    font-size: 2rem;
+}
+h5{
+    color: white;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#top{
+    text-align: center;
+}
+.logo{
+    font-size: 3rem;
+    cursor: pointer;
+    width: 100px;
+}
+.buscar{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 30px;
+    top: 7%;
+    right: 30%;
+}
+nav{
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    background-color: firebrick;
+    padding: 0;
+    width: 90%;
+    margin: 20px auto;
+}
+.menu .item{
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.menu .submenu{
+    position: absolute;
+    display: none;
+}
+.menu .submenu .sub_i{
+    display: block;
+    font-size: 0.8rem;
+    padding: auto;
+    background-color: firebrick;
+}
+.menu .item a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 30px;
+}
+.menu .item:hover .submenu{
+    display: block;
+}
+.menu .item a:hover{
+    background-color: white;
+    color: firebrick;
+}
+/* Seccion de imagenes */
+.slides img{
+    width: 100%;
+}
+/* Seccion categoria */
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.categoria{
+    margin: 10px;
+    padding: 5px 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    background-color: white;
+}
+.categoria img{
+    width: 400px;
+}
+.categoria h3{
+    text-align: center;
+}
+.categoria:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,2);
+}
+/* Seccion de productos*/
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Ajustando tamaño de imagen*/
+.producto{
+    margin: 25px;
+    padding: 10px 15px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    background-color: white;
+}
+.producto:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,2);
+}
+.producto img{
+    width: 300px;
+}
+/*Boton agregar carrito*/
+.agregar{
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    color: firebrick;
+    background-color: white;
+    border: 1px solid firebrick;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.agregar:hover{
+    background-color: firebrick;
+    color: white;
+}
+footer{
+    background-color: firebrick;
+    height: 80px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
